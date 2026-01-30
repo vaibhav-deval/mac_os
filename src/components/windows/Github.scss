@@ -1,0 +1,50 @@
+.cards {
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  cursor: auto;
+  justify-content: center;
+  padding-block: 2rem;
+  padding-inline: 0.5rem;
+  padding-bottom: 10rem;
+  scrollbar-width: none;
+
+  .card {
+    border-radius: 0.5rem;
+    background: #2e2e2e;
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
+    flex: 1;
+    min-width: 15rem;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    img {
+      border-radius: 0.5rem;
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+    .description {
+      font-size: 0.8rem;
+      color: rgba(245, 245, 245, 0.68);
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      .tag {
+        background: #0055ff;
+        padding-inline: 0.5rem;
+        padding-block: 0.25rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
