@@ -1,0 +1,12 @@
+import "./App.scss";
+import Dock from "./components/Dock";
+
+function App() {
+  return (
+  <main>
+    <Dock/>
+  </main>
+  )
+}
+
+export default App;
