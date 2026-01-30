@@ -1,7 +1,7 @@
 .dock {
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
   right: 50%;
   transform: translateX(50%);
   background: #48484835;
@@ -16,9 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1;
-    width: 3.75rem;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    img {
+      aspect-ratio: 1/1;
+      width: 1.55rem;
+    }
   }
   .github,
   .cli {
