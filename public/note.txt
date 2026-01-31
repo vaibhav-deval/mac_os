@@ -1,0 +1,129 @@
+/** 
+ * @file: profile.md
+ * @author: Frontend Developer (BCA)
+ * @summary: Code-driven developer profile – clean, practical, evolving.
+ */
+
+// --------------------------------------------------
+// 1. CORE SKILLS & TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "React.js",
+    "Tailwind CSS",
+  ],
+
+  backend: [
+    "Node.js (Learning)",
+    "Express.js (Learning)",
+    "MongoDB / PostgreSQL (Basics)",
+  ],
+
+  tools: [
+    "Git & GitHub",
+    "VS Code",
+    "Figma",
+    "Vercel / Netlify",
+    "Linux (Basics)",
+  ],
+};
+
+// --------------------------------------------------
+// 2. PROJECT EXPERIENCE
+// --------------------------------------------------
+
+class ProjectExperience {
+
+  /**
+   * MINI FIGMA – Browser-Based Design Tool
+   * Role: Frontend Developer
+   */
+  MiniFigma() {
+    return {
+      tech: ["HTML", "CSS", "Vanilla JavaScript"],
+      highlights: [
+        "Figma-style editor without Canvas or SVG",
+        "Element creation: Text & Rectangle",
+        "Drag, resize, rotate, and layer management",
+        "Single-element selection system",
+        "Focus on DOM architecture and UX logic",
+      ],
+    };
+  }
+
+  /**
+   * FINDITHERE – Idea-Based Web Project
+   * Role: Full-Stack Learner
+   */
+  FindIThere() {
+    return {
+      focus: [
+        "Real-world problem → web solution",
+        "Feature planning & execution",
+        "Improved logical thinking & debugging",
+      ],
+      status: "In Progress / Learning Phase",
+    };
+  }
+}
+
+export default new ProjectExperience();
+
+// --------------------------------------------------
+// 3. EDUCATION
+// --------------------------------------------------
+
+const EDUCATION = {
+  degree: "Bachelor of Computer Applications (BCA)",
+  focus: [
+    "Programming Fundamentals",
+    "Web Technologies",
+    "Software Development Concepts",
+  ],
+};
+
+// --------------------------------------------------
+// 4. LEARNING & GROWTH
+// --------------------------------------------------
+
+const LEARNING_STATUS = {
+  currentFocus: [
+    "Advanced JavaScript",
+    "React Internals",
+    "Backend Fundamentals",
+    "System Thinking",
+  ],
+  mindset: "Adaptable, curious, and growth-oriented",
+};
+
+// --------------------------------------------------
+// 5. CAREER OBJECTIVE
+// --------------------------------------------------
+
+function CareerObjective() {
+  return `
+  Entry-level Frontend / Full-Stack Developer
+  focused on building real-world products, 
+  learning rapidly, and growing within a strong 
+  engineering environment.
+  `;
+}
+
+// --------------------------------------------------
+// 6. TERMINAL OUTPUT
+// --------------------------------------------------
+
+/*
+$ user --status
+
+> Role: Frontend / Full-Stack Developer (Fresher)
+> Status: Open to Opportunities
+> Location: India / Remote
+> Learning Mode: ON 🚀
+> Build Mode: ACTIVE
+> Ready to Ship.
+*/

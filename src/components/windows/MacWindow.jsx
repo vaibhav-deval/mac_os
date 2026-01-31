@@ -3,7 +3,14 @@ import { Rnd } from "react-rnd";
 
 const MacWindow = ({ children }) => {
   return (
-    <Rnd>
+    <Rnd
+      default={{
+        width: "40vw",
+        height: "60vh",
+        x: 300,
+        y: 200,
+      }}
+    >
       <div className="window">
         <div className="nav">
           <div className="dots">
@@ -11,11 +18,11 @@ const MacWindow = ({ children }) => {
             <div className="dot yellow"></div>
             <div className="dot green"></div>
           </div>
-          <div className="title"><p>vaibhavdeval - zsh</p></div>
+          <div className="title">
+            <p>vaibhavdeval - zsh</p>
+          </div>
         </div>
-        <div className="mainContent">
-          {children}
-        </div>
+        <div className="mainContent">{children}</div>
       </div>
     </Rnd>
   );
