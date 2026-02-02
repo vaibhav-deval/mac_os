@@ -4,14 +4,16 @@ import Nav from "./components/Nav";
 import Github from "./components/windows/Github";
 import Note from "./components/windows/Note";
 import Resume from "./components/windows/Resume";
+import Spotify from "./components/windows/Spotify";
 function App() {
   return (
     <main>
       <Nav />
       <Github />
       <Note />
+      <Resume />
+      <Spotify/>
       <Dock />
-      <Resume/>
     </main>
   );
 }
