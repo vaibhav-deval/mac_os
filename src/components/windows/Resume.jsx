@@ -1,9 +1,9 @@
 import MacWindow from "./MacWindow";
 import "./Resume.scss";
 
-const Resume = () => {
+const Resume = ({ windowName, setWindowState }) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowState={setWindowState}>
       <div className="pdfContainer">
         <embed src="./resume.pdf" type="" />
       </div>

@@ -29,9 +29,9 @@ const gitCards = (data, idx) => (
   </div>
 );
 
-const Github = () => {
+const Github = ({ windowName, setWindowState }) => {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowState={setWindowState}>
       <div className="cards">
         {gitJson.map((data, idx) => gitCards(data, idx))}
       </div>
